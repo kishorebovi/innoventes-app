@@ -1,0 +1,64 @@
+.room-booking-comp{
+    padding: 10px;
+
+    .title{
+        color: #060679;
+
+        .users-icon{
+            margin-right: 10px;
+        }
+    }
+
+    .room-booking-grid {
+        font-size: 20px;
+        border: 1px solid grey;
+        max-width: 500px;
+        margin-top: 10px;
+
+        .rooms, .adults, .children{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .divider{
+            border-bottom: 1px solid grey;
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .text{
+            color: #060679;
+            font-weight: 200;
+        }
+
+        .rooms-icon{
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .adults-icon{
+            font-size: 16px;
+            margin-right: 17px;
+        }
+
+        .children-icon{
+            font-size: 16px;
+            margin-right: 19px;
+        }
+
+        .minus-icon{
+            color: #060679;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .plus-icon{
+            color: red;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+}
